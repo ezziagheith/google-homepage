@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google's Homepage Duplicate</title>
+    <!------BOOTSTRAP CSS------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--------MAIN CSS--------->
     <link rel="stylesheet" href="/main.css">
         <!-----FONT AWESOME-------->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md mb-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item about">About</li>
+            <li class="nav-item store">Store</li>
+            <li class="nav-item gmail">Gmail</li>
+            <li class="nav-item images">Images</li>
+            <i class="fas fa-th grid-icon"></i>
+            <button id="sign-in" type="submit">Sign In</button>
+            </ul>
+        </div>
+    </nav>
+    <!--END NAVBAR-->
     <img id="google-logo" src="/images/google-home.gif" alt="Google's Image">
     <input id="search-bar" type="text">
     <i id="search-icon" class="fas fa-search"></i>
@@ -19,6 +38,7 @@
     <button id="google-search" type="submit">Google Search</button>
     <button id="feeling-lucky" type="submit">I'm Feeling Lucky</button>
     <a id="link" href="">Make the most of your time at home with tips for recipes, workouts, and more</a>
+
 
 </body>
 </html>

@@ -66,3 +66,35 @@
     left: 470px;
     color: #1a0dab;
 }
+
+.store{
+    position: absolute;
+    left: 75px;
+}
+
+.gmail{
+    position: absolute;
+    right: 300px;
+}
+
+.images{
+    position: absolute;
+    right: 220px;
+}
+
+.grid-icon{
+    position: absolute;
+    right: 170px;
+    top: 13px;
+}
+
+#sign-in{
+    position: absolute;
+    right: 70px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: white;
+    border-radius: 2px;
+}
