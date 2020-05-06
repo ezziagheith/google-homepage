@@ -3,3 +3,13 @@
     left: 440px;
     top: 50px;
 }
+
+#search-bar{
+    position: absolute;
+    left: 430px;
+    top: 280px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 582px;
+    height: 44px;
+}
