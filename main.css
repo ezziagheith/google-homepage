@@ -13,3 +13,9 @@
     width: 582px;
     height: 44px;
 }
+
+#search-icon{
+    position: absolute;
+    top: 295px;
+    left: 450px;
+}
